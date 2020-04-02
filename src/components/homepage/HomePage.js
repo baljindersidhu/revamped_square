@@ -3,12 +3,15 @@ import './HomePage.css';
 
 export default function HomePage(){
     const tags = ["travel", "uidesign"];
+    const newsCardHeading = "WordPress Events & News";
+    const newsCardDescription = "All the rumours have finally died down and many skeptics have tightened their lips.";
     
     return (
         <div className="HomePage">
             <HomePageView />
             <div className="content row centerV">
                 <PictureCard tags={tags} caption="images/pattern4.jpg" />
+                <NewsCard heading={newsCardHeading} description={newsCardDescription} caption="covers/cover-2.jpg" />
             </div>
         </div>
     );
@@ -45,6 +48,25 @@ class PictureCard extends React.Component{
                     <div className="title">Your Recent Drafts</div>
                     <div className="tags">{tags}</div>
                     <div className="subtitle">Edit now</div>
+                </div>
+            </div>
+        );
+    }
+}
+
+class NewsCard extends React.Component{
+
+    render(){
+        return (
+            <div className="Card NewsCard positionRelative">
+                <div className="positionAbsolute bg" style={{backgroundImage: `url(${this.props.caption})`}}></div>
+                <div className="positionRelative">
+                    <div className="header row reverse">
+                        <div className="iconBtn"><i className="ri-share-line"></i></div>
+                    </div>
+
+                    <div className="heading">{this.props.heading}</div>
+                    <div className="description">{this.props.description}</div>
                 </div>
             </div>
         );

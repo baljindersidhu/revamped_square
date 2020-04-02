@@ -129,3 +129,52 @@
     font-size: 1.5vh;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.HomePage .NewsCard{
+    background: white;
+}
+
+.HomePage .NewsCard::before{
+    content: '';
+    position: absolute;
+}
+
+.HomePage .NewsCard .bg{
+    height: 15.5vh;
+    width: 100%;
+    background-size: cover;
+    top: 0vh;
+    left: 0vw;
+    border-top-left-radius: 2.5vh;
+    border-top-right-radius: 2.5vh;
+}
+
+.HomePage .NewsCard .heading{
+    margin-top: 14vh;
+    font-weight: 500;
+    font-size: 1.75vh;
+    text-shadow: 0px 0px 2px var(--theme-light-grey-color);
+}
+
+.HomePage .NewsCard .description{
+    font-size: 1.25vh;
+    text-align: justify;
+    opacity: 0.5;
+    margin-top: 1vh;
+}
