@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600&display=swap');
+
+.App{
+  font-family: 'Fira Sans', sans-serif;
+
+  --theme-white-color: #EFF2F5;
+  --theme-dark-grey-color: #AEB1C1;
+  --theme-light-grey-color: #B8CDD0;
+  --theme-darkest-grey-color: #6F859A;
+  --theme-black-color: #1C2E41;
+  --theme-primary-color: #3c6aff;
+  --theme-brown-color: #916A4A;
+
+  height: 100vh;
+  background-color: var(--theme-white-color);
+  font-size: 1.85vh;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn{
+  font-size: 1.25vh;
   color: white;
+  background-color: var(--theme-primary-color);
+  padding: 1vh 1.25vw;
+  text-align: center;
+  border-radius: 2vh;
+  font-weight: 400;
+  text-shadow: 0px 0px 1px white;
+  box-shadow: 0px 0px 8px var(--theme-dark-grey-color);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn .icon{
+  font-size: 1.2vh;
+  margin-top: 0.3vh;
+  margin-left: 0.1vw;
 }

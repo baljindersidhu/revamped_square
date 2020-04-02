@@ -1,0 +1,131 @@
+.Navbar{
+    background-color: white;
+    height: 7vh;
+    width: 98vw;
+    padding: 0vh 1vw;
+    box-shadow: 0px -8px 24px var(--theme-dark-grey-color);
+}
+
+.Navbar .brandName{
+    color: var(--theme-black-color);
+    font-weight: 700;
+    padding-left: 0.5vw;
+    padding-right: 0.25vw;
+    text-transform: uppercase;
+}
+
+.Navbar .brandIcon{
+    margin-right: 1vw;
+}
+
+.Navbar .brandIcon::before, .Navbar .brandIcon::after{
+    content: '';
+    position: absolute;
+    height: 6px;
+    width: 6px;
+}
+
+.Navbar .brandIcon::before{
+    background-color: var(--theme-primary-color);
+    top: -6px;
+}
+
+.Navbar .brandIcon::after{
+    background-color: var(--theme-black-color);
+    left: 6px;
+}
+
+.Navbar .tabs{
+    margin-left: 8.5vw;
+}
+
+.Navbar .tabs .tab{
+    font-weight: bold;
+    font-size: 1.45vh;
+    padding: 0vh 2vw;
+    color: var(--theme-dark-grey-color);
+}
+
+.Navbar .tabs .tab:nth-child(1){
+    color: var(--theme-primary-color);
+}
+
+.Navbar .tabs .tab:nth-child(1)::before{
+    content: '';
+    position: absolute;
+    background-color: var(--theme-primary-color);
+    width: 1.75vw;
+    height: 0.35vh;
+    bottom: -2.8vh;
+    transform-origin: left;
+    animation: growAlongX 0.2s linear;
+}
+
+@keyframes growAlongX{
+    from {transform: scaleX(0);}
+    to   {transform: scaleX(1);}
+}
+
+.Navbar .globalSearch{
+    color: var(--theme-dark-grey-color);
+    background-color: var(--theme-white-color);
+    padding: 0.5vh 1vw; 
+    border-radius: 2vh;
+    font-weight: bold;
+}
+
+.Navbar .globalSearch input{
+    border: none;
+    outline: none;
+    width: 20vw;
+    font-size: 1.35vh;
+    font-family: inherit;
+    font-weight: bold;
+    background-color: inherit;
+}
+
+.Navbar .globalSearch .icon{
+    padding-top: 0.45vh;
+}
+
+.Navbar .userAvatar{
+    width: 1.75vw;
+    margin: 0vh 2vw;
+    animation: grow 0.25s ease-in-out;
+}
+
+.Navbar .userAvatar img{
+    width: 100%;
+}
+
+.Navbar .notificationIcon{
+    margin-left: 2vw;
+    margin-right: 4vw;
+    padding-top: 0.5vh;
+    color: var(--theme-dark-grey-color);
+    font-size: 2.5vh;
+}
+
+.Navbar .notificationIcon::before{
+    content: '';
+    position: absolute;
+    background-color: var(--theme-primary-color);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    right: -0.35vw;
+    animation: grow 0.35s linear;
+}
+
+@keyframes grow{
+    from {transform: scale(0);}
+    to   {transform: scale(1);}
+
+}
+
+.Navbar .btn{
+    transform: scale(0);
+    animation: grow 0.25s ease-in-out;
+    animation-delay: 0.35s;
+    animation-fill-mode: forwards;
+}

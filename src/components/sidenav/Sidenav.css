@@ -1,0 +1,79 @@
+.Sidenav{
+    width: 14vw;
+    height: 93vh;
+    padding-top: 7vh;
+    background: white;
+}
+
+.Sidenav .action{
+    padding: 1.5vh 1.5vw;
+    border-bottom: 1px solid var(--theme-white-color);
+    color: var(--theme-dark-grey-color);
+}
+
+.Sidenav .action i{
+    transform: scale(0);
+    animation: grow 0.25s linear;
+    animation-delay: 0.20s;
+    animation-fill-mode: forwards;
+}
+
+.Sidenav .action .actionName{
+    margin-left: 0.5vw;
+    font-weight: bold;
+    font-size: 1.5vh;
+    animation: fade-in 0.45s ease-in-out;
+}
+
+@keyframes fade-in{
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+
+.Sidenav .action:nth-child(2){
+    color: initial;
+    position: relative;
+}
+
+.Sidenav .action:nth-child(2) i{
+    color: var(--theme-primary-color);
+}
+
+.Sidenav .action:nth-child(2)::after{
+    content: '';
+    position: absolute;
+    right: 0vw;
+    width: 0.2vw;
+    height: 5vh;
+    background-color: var(--theme-primary-color);
+}
+
+.Sidenav .action:nth-child(4){
+    position: relative;
+}
+
+.Sidenav .action:nth-child(4)::after{
+    content: '18';
+    position: absolute;
+    left: 6vw;
+    font-size: 1.25vh;
+    color: white;
+    background-color: var(--theme-primary-color);
+    padding: 0vh 0.35vw;
+    border-radius: 0.75vh;
+    transform: scale(0);
+    animation: grow 0.25s linear;
+    animation-delay: 0.20s;
+    animation-fill-mode: forwards;
+}
+
+.Sidenav .customerCareBtn{
+    color: white;
+    background-color: var(--theme-primary-color);
+    width: 2.35vw;
+    height: 4.5vh;
+    margin: 2vh 1.5vw;
+    border-radius: 50%;
+    font-size: 2.5vh;
+    animation: fade-in 0.35s linear;
+}

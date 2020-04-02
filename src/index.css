@@ -5,9 +5,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.row.reverse{
+  flex-direction: row-reverse;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.row .fillParent, .column .fillParent{
+  flex: 1;
+}
+
+.row.centerH, .column.centerV{
+  justify-content: center;
+}
+
+.row.centerV, .column.centerH{
+  align-items: center;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.positionRelative{
+  position: relative;
+}
+
+.positionAbsolute{
+  position: absolute;
 }
