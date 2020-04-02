@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/revamped-square/static/css/main.500c49c7.chunk.css",
+    "main.js": "/revamped-square/static/js/main.0c342eb9.chunk.js",
+    "main.js.map": "/revamped-square/static/js/main.0c342eb9.chunk.js.map",
+    "runtime-main.js": "/revamped-square/static/js/runtime-main.6480f978.js",
+    "runtime-main.js.map": "/revamped-square/static/js/runtime-main.6480f978.js.map",
+    "static/css/2.121de597.chunk.css": "/revamped-square/static/css/2.121de597.chunk.css",
+    "static/js/2.26b339f5.chunk.js": "/revamped-square/static/js/2.26b339f5.chunk.js",
+    "static/js/2.26b339f5.chunk.js.map": "/revamped-square/static/js/2.26b339f5.chunk.js.map",
+    "index.html": "/revamped-square/index.html",
+    "precache-manifest.11da153df9e8dce4aa02605602f26951.js": "/revamped-square/precache-manifest.11da153df9e8dce4aa02605602f26951.js",
+    "service-worker.js": "/revamped-square/service-worker.js",
+    "static/css/2.121de597.chunk.css.map": "/revamped-square/static/css/2.121de597.chunk.css.map",
+    "static/css/main.500c49c7.chunk.css.map": "/revamped-square/static/css/main.500c49c7.chunk.css.map",
+    "static/js/2.26b339f5.chunk.js.LICENSE.txt": "/revamped-square/static/js/2.26b339f5.chunk.js.LICENSE.txt",
+    "static/media/remixicon.css": "/revamped-square/static/media/remixicon.e5b755b0.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6480f978.js",
+    "static/css/2.121de597.chunk.css",
+    "static/js/2.26b339f5.chunk.js",
+    "static/css/main.500c49c7.chunk.css",
+    "static/js/main.0c342eb9.chunk.js"
+  ]
+}
