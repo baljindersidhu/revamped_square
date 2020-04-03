@@ -29,6 +29,10 @@
   box-shadow: 0px 0px 8px var(--theme-dark-grey-color);
 }
 
+.btn.dark{
+  background-color: var(--theme-black-color);
+}
+
 .btn .icon{
   font-size: 1.2vh;
   margin-top: 0.3vh;

@@ -178,3 +178,190 @@
     opacity: 0.5;
     margin-top: 1vh;
 }
+
+
+
+
+
+
+
+
+
+
+
+.HomePage .Card.UploadMediaCard{
+    background-color: white;
+    width: 28vw;
+}
+
+.UploadMediaCard .header .avatar{
+    width: 1.5vw;
+}
+
+.UploadMediaCard .header .avatar img{
+    width: 100%;
+}
+
+.UploadMediaCard .header .heading{
+    font-size: 1.45vh;
+    opacity: 0.5;
+    margin-left: 0.5vw;
+}
+
+.HomePage .Card.UploadMediaCard .header .iconBtn, .HomePage .Card.AnalyticsCard .header .iconBtn, .HomePage .Card.MediaCard .header .iconBtn{
+    background-color: var(--theme-white-color);
+}
+
+.UploadMediaCard .cancelBtn{
+    font-size: 1.25vh;
+    font-weight: bold;
+    color: var(--theme-dark-grey-color);
+}
+
+.UploadMediaCard .btn.dark{
+    margin-right: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+.AnalyticsCard, .MediaCard{
+    background-color: white;
+}
+
+.AnalyticsCard .header .heading, .MediaCard .header .heading{
+    font-weight: 500;
+    font-size: 1.75vh;
+    text-shadow: 0px 0px 2px var(--theme-light-grey-color);
+}
+
+.AnalyticsCard .header .heading i{
+    margin-left: 0.25vw;
+}
+
+.AnalyticsCard .header .heading i.positive{
+    color: #74ca44;
+}
+
+.AnalyticsCard .header .heading i.negative{
+    color: #f8643b;
+}
+
+.AnalyticsCard .chart{
+    margin-top: 2vh;
+}
+
+.AnalyticsCard .BarChart .ticks{
+    font-size: 1.25vh;
+    font-weight: 500;
+    color: var(--theme-dark-grey-color);
+    opacity: 0.6;
+}
+
+.AnalyticsCard .BarChart .bar{
+    width: 0.35vw;
+    height: 19vh;
+    background-color: var(--theme-white-color);
+    border-radius: 0.5vh;
+}
+
+.AnalyticsCard .BarChart .bar::after{
+    content: '';
+    position: absolute;
+    border-radius: 0.5vh;
+    bottom: 0vh;
+    height: 10vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, var(--theme-primary-color), #75a2f2);
+    transform: scale(0);
+    transform-origin: bottom;
+    animation: grow 0.5s ease-in-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.AnalyticsCard .BarChart .bar:nth-child(3)::after{
+    height: 8vh;
+}
+
+.AnalyticsCard .BarChart .bar:nth-child(5)::after{
+    height: 10vh;
+}
+
+.AnalyticsCard .BarChart .bar:nth-child(7)::after{
+    height: 3vh;
+}
+
+.AnalyticsCard .BarChart .bar:nth-child(9)::after{
+    height: 13vh;
+}
+
+.AnalyticsCard .BarChart .bar:nth-child(11)::after{
+    height: 17vh;
+}
+
+.AnalyticsCard .BarChart .bar:nth-child(13)::after{
+    height: 14vh;
+}
+
+.AnalyticsCard .BarChart .bar:nth-child(15)::after{
+    height: 16vh;
+}
+
+
+
+
+
+
+
+.MediaCard .userAvatar{
+    margin-top: 2vh;
+    width: 4.5vw;
+}
+
+.MediaCard .userAvatar img{
+    width: 100%;
+}
+
+.MediaCard .avatarInfo{
+    margin: 1vh 0vw;
+}
+
+.MediaCard .avatarInfo .avatarName{
+    font-size: 1.5vh;
+    font-weight: 500;
+}
+
+.MediaCard .avatarInfo .lastActive{
+    color: var(--theme-dark-grey-color);
+    font-size: 1.25vh;
+    padding-top: 0.5vh;
+    padding-bottom: 1vh;
+}
+
+.MediaCard .avatarMedia .recentMedia{
+    height: 3.75vh;
+    margin: 0vh 0.3vw;
+    border-radius: 1vh;
+    background-size: cover;
+    box-shadow: 0px 0px 4px var(--theme-light-grey-color);
+    opacity: 0.8;
+}
+
+.MediaCard .avatarMedia .recentMedia img{
+    width: 100%;
+}
+
+.MediaCard .avatarMedia .recentMedia.fixed{
+    margin-left: 0vw;
+    background-color: var(--theme-primary-color);
+    color: white;
+    opacity: 1;
+}
