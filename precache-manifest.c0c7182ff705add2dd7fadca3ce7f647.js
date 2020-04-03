@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c5166ee9739dcd91009a5e4c631ef58",
+    "revision": "38ab16c510deb17c9694d12efa91da78",
     "url": "/revamped-square/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/revamped-square/static/css/2.121de597.chunk.css"
   },
   {
-    "revision": "4c63e007e0cd93a237be",
+    "revision": "fe0e923bafeeb4fc7175",
     "url": "/revamped-square/static/css/main.9950f8e1.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/revamped-square/static/js/2.26b339f5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4c63e007e0cd93a237be",
-    "url": "/revamped-square/static/js/main.6119e4fa.chunk.js"
+    "revision": "fe0e923bafeeb4fc7175",
+    "url": "/revamped-square/static/js/main.a2e7e6f7.chunk.js"
   },
   {
     "revision": "96f29495a6cb97c002c6",
