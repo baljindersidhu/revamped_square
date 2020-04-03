@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/revamped-square/static/css/main.9950f8e1.chunk.css",
-    "main.js": "/revamped-square/static/js/main.a2e7e6f7.chunk.js",
-    "main.js.map": "/revamped-square/static/js/main.a2e7e6f7.chunk.js.map",
+    "main.js": "/revamped-square/static/js/main.bac99f6e.chunk.js",
+    "main.js.map": "/revamped-square/static/js/main.bac99f6e.chunk.js.map",
     "runtime-main.js": "/revamped-square/static/js/runtime-main.6480f978.js",
     "runtime-main.js.map": "/revamped-square/static/js/runtime-main.6480f978.js.map",
     "static/css/2.121de597.chunk.css": "/revamped-square/static/css/2.121de597.chunk.css",
     "static/js/2.26b339f5.chunk.js": "/revamped-square/static/js/2.26b339f5.chunk.js",
     "static/js/2.26b339f5.chunk.js.map": "/revamped-square/static/js/2.26b339f5.chunk.js.map",
     "index.html": "/revamped-square/index.html",
-    "precache-manifest.c0c7182ff705add2dd7fadca3ce7f647.js": "/revamped-square/precache-manifest.c0c7182ff705add2dd7fadca3ce7f647.js",
+    "precache-manifest.f0a5fe062472abd5683dff12a80a0a6c.js": "/revamped-square/precache-manifest.f0a5fe062472abd5683dff12a80a0a6c.js",
     "service-worker.js": "/revamped-square/service-worker.js",
     "static/css/2.121de597.chunk.css.map": "/revamped-square/static/css/2.121de597.chunk.css.map",
     "static/css/main.9950f8e1.chunk.css.map": "/revamped-square/static/css/main.9950f8e1.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.121de597.chunk.css",
     "static/js/2.26b339f5.chunk.js",
     "static/css/main.9950f8e1.chunk.css",
-    "static/js/main.a2e7e6f7.chunk.js"
+    "static/js/main.bac99f6e.chunk.js"
   ]
 }
